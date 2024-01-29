@@ -1,0 +1,37 @@
+add1= div[data-dtld='sodabaer.de'] 
+add2= a[data-pcu="https://www.sodabaer.de/"]
+
+
+add2:
+//cookies button
+a.cookie-permission--accept-button
+
+// clicking on CO2-Zylinder button
+a.navigation--link.is--active[aria-label="CO2-Zylinder"]
+
+// clicking on a product 
+a.product--title[title="SodaBär© Tausch-Box 4 x 425g (60 l)"]
+
+// click on product option
+select[name="group[5]"]
+
+// select item
+select[name="group[5]"] option[value="2"]
+
+// click on checkbox 
+input[name="exchangeArticleValidation"][type="checkbox"]
+
+// seleccting prodcut quantity dropdown
+select#sQuantity 
+
+// seleccting prodcut 
+option[value="2"]
+
+//clicking on add to cart button by xpath
+//div[@class="details--sb-btn-full"]//button[@class="sb-btn-full"]
+
+//back to shopping
+div.buttons--off-canvas a.close--off-canvas
+
+// clicking on the home button by xpath
+//img[@srcset="https://www.sodabaer.de/media/image/04/f1/5b/unnamedYWRbclU9N9IrE.png"]

@@ -1,0 +1,10 @@
+@import "./styles/variables.scss";
+@import "./styles/global.scss";
+
+.App {
+    overflow-x: hidden;
+    text-align: center;
+    height: 600px;
+    min-width: 362px;
+    overflow-y: auto;
+}

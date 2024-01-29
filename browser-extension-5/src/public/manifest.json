@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "click-bot",
+  "version": "1.0",
+  "description": "A simple Chrome extension to click on Google ads",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs",
+    "alarms",
+    "browsingData",
+    "cookies"
+  ],
+  "action": {
+    "default_title": "click-bot"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

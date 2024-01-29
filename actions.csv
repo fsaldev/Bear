@@ -1,0 +1,16 @@
+action,url
+ScrollDown,
+sleep,random
+ScrollUp,
+clickbyselector,button.quantity__button[name='plus']
+clickbyselector,button.quantity__button[name='plus']
+sleep,random
+clickbyselector,input#spare-checkbox[type='checkbox']
+sleep,random
+clickbyselector,button.product-form__submit[name='add']
+sleep,random
+goback,
+
+/html/body/div[2]/div/div[1]/div[6]/div[1]/div[2]/div/div/div[1]/div/div/ol/li/div/div/div[1]/div/div/div/g-scrolling-carousel/div/div[1]/div/div[1]/div[1]/div/a
+/html/body/div[2]/div/div[1]/div[6]/div[1]/div[2]/div/div/div[1]/div/div/ol/li/div/div/div[1]/div/div/div/g-scrolling-carousel/div/div[1]/div/div[1]/div[1]/div/a
+/html/body/div[2]/div/div[1]/div[6]/div[1]/div[2]/div/div/div[1]/div/div/ol/li/div/div/div[1]/div/div/div/g-scrolling-carousel/div/div[1]/div/div[2]/div[1]/div/a

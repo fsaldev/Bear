@@ -1,0 +1,22 @@
+action,url
+ScrollDown,500
+sleep,random
+ScrollUp,450
+clickbyselector,input[type="radio"][id="template--18356900233552__main-1-1"]  
+sleep,random
+clickbyselector,input[type="radio"][id="template--18356900266320__main-1-6"]
+sleep,random
+clickbyselector,button.quantity__button[name='plus']
+sleep,random
+clickbyselector,input#spare-checkbox[type='checkbox']
+sleep,random
+clickbyselector,button.product-form__submit[name='add']
+sleep,random
+clickbyselector,"a.header__heading-link > img.header__heading-logo[alt=""SodaTASTE""]"
+sleep,random
+clickbyxpath,"//*[@id=""shopify-section-template--18356899709264__16613290653954dcbd""]/div/div/div/div/div[2]/div[2]/a[2]"
+sleep,random
+clickbyxpath,"//*[@id=""shopify-section-template--18356900266320__0235fdc9-38a2-470b-9b70-75aae7a92da3""]/div/div/div/div[3]/a"
+sleep,random
+ScrollDown,150
+ScrollUp,100

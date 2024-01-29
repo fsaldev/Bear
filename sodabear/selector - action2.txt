@@ -1,0 +1,38 @@
+ads1= div[data-dtld='sodabaer.de'] 
+ads2= a[data-pcu="https://www.sodabaer.de/"]
+
+
+ads2:
+
+// click on product option
+select[name="group[5]"]
+
+// select item
+select[name="group[5]"] option[value="2"]
+
+// click on checkbox 
+input[name="exchangeArticleValidation"][type="checkbox"]
+
+// seleccting prodcut quantity dropdown
+select#sQuantity 
+
+// seleccting prodcut 
+option[value="2"]
+
+//clicking on add to cart button by xpath
+//div[@class="details--sb-btn-full"]//button[@class="sb-btn-full"]
+
+//back to shopping
+div.buttons--off-canvas a.close--off-canvas
+
+// clicking on the home button by xpath
+//img[@srcset="https://www.sodabaer.de/media/image/04/f1/5b/unnamedYWRbclU9N9IrE.png"]
+
+// clicking on FAQ
+a.navigation--link.is--active[title="Flaschen"]
+
+// clicking on product
+a.product--title[title="Edelstahl 1L Flasche mit Drehverschluss für Wassersprudler by Sodabär MAXI Flasche"]
+
+//clicking on add to cart button by xpath
+//div[@class="details--sb-btn-full"]//button[@class="sb-btn-full"]

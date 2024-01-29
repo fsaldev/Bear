@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "baseUrl":".",
+        "paths":{
+            "@/assets/*": ["src/public/assets/*"],
+            "@/components/*": ["src/components/*"],
+            "@/context/*": ["src/context/*"],
+            "@/const/*":["src/const/*"],
+            "@/constants/*":["src/constants/*"],
+            "@/hooks/*": ["src/hooks/*"],
+            "@/mock/*": ["src/mock/*"],
+            "@/public/*": ["src/public/*"],
+            "@/reducers/*": ["src/context/reducers*"],
+            "@/services/*": ["src/services/*"],
+            "@/utils/*": ["src/utils/*"],
+            "@/views/*": ["src/views/*"],
+            "@/validation/*": ["src/validation/*"],
+        },
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "es2017",
+        "allowJs": true,
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true
+    },
+    "include": [
+        "./src/**/*",
+        "src/custom.d.ts"
+    ],
+    "exclude":["node_modules"]
+}
